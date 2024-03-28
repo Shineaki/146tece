@@ -1,0 +1,48 @@
+site_name: 146Tece
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+extra:
+  analytics:
+    provider: google
+    property: G-C21734EHLL
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+  - glightbox
+extra_css:
+  - css/css.css
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+nav:
+  - index.md
+  - 2024.03.11 - Technológia ✓: 20240311/20240311.md
+  - 2024.03.13 - Mechanika ✓:
+      - Vas-szén Ötvözetek: 20240313/20240313_vasszen.md
+      - Hőkezelés: 20240313/20240313_hokezeles.md
+      - Szakitodiagram: 20240313/20240313_szakito.md
+  - 2024.03.18 - Mechanika ✓: 20240318/20240318.md
+  - 2024.03.20 - Elektrotechnika ✓: 20240320/20240320.md
+  - 2024.03.25 - Mechanika ✓: 20240325/20240325.md
+  - 2024.03.27 - Technológia ✓: 20240327/20240327.md
+  - 2024.04.03 - Elektrotechnika: 20240403/20240403.md
+  - 2024.04.08 - Mechanika: 20240408/20240408.md
