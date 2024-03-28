@@ -1,4 +1,8 @@
-Szükséges Toolok:
+# Jegyzetek
+
+## Ha valamit változtatni szeretnél
+
+### Szükséges Toolok:
 
 * Változtatások feltöltéséhez: [Git](https://git-scm.com/downloads)
 * Változtatások ellenőrzéséhez: [Python](https://www.python.org/downloads/)
